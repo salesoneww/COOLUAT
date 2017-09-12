@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11871" started-at="2017-09-11T12:15:56Z" finished-at="2017-09-11T12:16:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11871" started-at="2017-09-11T12:15:56Z" finished-at="2017-09-11T12:16:08Z">
+      <class name="com.cooluat.tests.COOLUATTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.cooluat.tests.COOLUATTest@7cd62f43]" name="init" is-config="true" duration-ms="5044" started-at="2017-09-11T17:45:56Z" finished-at="2017-09-11T17:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="coolUATTest()[pri:0, instance:com.cooluat.tests.COOLUATTest@7cd62f43]" name="coolUATTest" duration-ms="6465" started-at="2017-09-11T17:46:01Z" finished-at="2017-09-11T17:46:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coolUATTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.cooluat.tests.COOLUATTest@7cd62f43]" name="getResult" is-config="true" duration-ms="3" started-at="2017-09-11T17:46:08Z" finished-at="2017-09-11T17:46:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=coolUATTest status=SUCCESS method=COOLUATTest.coolUATTest()[pri:0, instance:com.cooluat.tests.COOLUATTest@7cd62f43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endreport()[pri:0, instance:com.cooluat.tests.COOLUATTest@7cd62f43]" name="endreport" is-config="true" duration-ms="336" started-at="2017-09-11T17:46:08Z" finished-at="2017-09-11T17:46:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
+      </class> <!-- com.cooluat.tests.COOLUATTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
